@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shop">
+
+
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <Button
+                android:id="@+id/menu_item"
+                android:layout_width="90dp"
+                android:paddingLeft="5dp"
+                android:drawableLeft="@drawable/ic_info_outline_black_24dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="инфо"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                tools:ignore="VectorDrawableCompat" />
+
+            <Button
+                android:id="@+id/menu_item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Пицца"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/menu_item2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Дессерт"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/menu_item3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Соусы"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/menu_item4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Напитки"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/menu_item5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Наборы"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/menu_item6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:text="Роллы и суши"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="624dp"
+        android:layout_marginTop="61dp"
+        android:scrollbars="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OnlineShop</string>
+    <string name="checkout_title" translatable="false">Оплата</string>
+    <string name="checkout_description" translatable="false">Так выглядят платежи через CloudPayments для покупателей в мобильном приложении. Платеж тестовый — деньги тратить не придется. Мы не ограничиваем своих клиентов в использовании какой либо определенной формы для ввода карточных данных, вы можете создать любую форму которая будет полностью соответсвовать дизайну вашего приложения.</string>
+    <string name="checkout_total" translatable="false">Всего к оплате:</string>
+    <string name="checkout_card_number" translatable="false">Номер карты</string>
+    <string name="checkout_card_date" translatable="false">MM/YY</string>
+    <string name="checkout_card_cvc" translatable="false">CVC</string>
+    <string name="checkout_card_holder" translatable="false">Владелец карты</string>
+    <string name="checkout_payment" translatable="false">Оплатить</string>
+</resources>

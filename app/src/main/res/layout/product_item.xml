@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:background="#ffffff"
+    android:id="@+id/product_id"
+    android:foreground="?android:selectableItemBackground"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/nameProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Samsung Galaxy J7"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionProduct"
+        android:layout_width="wrap_content"
+        android:textColor="#8BC34A"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:maxLines="4"
+        android:text="Plus Duos 64 GB  Orchid Gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buyButton"
+            android:layout_width="match_parent"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_pressed"
+            android:text="В корзину" />
+
+        <TextView
+            android:id="@+id/descriptionReal"
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/nameProduct"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pay">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recyclerViewPay"
+        android:layout_width="match_parent"
+        android:layout_height="573dp"
+        android:scrollbars="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/finalprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buyproduct"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-97dp"
+        android:layout_marginBottom="-22dp"
+        android:paddingTop="10dp"
+        android:text="Итого: 0 руб."
+        android:textColor="#8BC34A" />
+
+    <Button
+        android:id="@+id/buyproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recyclerViewPay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="11dp"
+        android:background="@color/colorAccent"
+        android:text="Оформить заказ"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>
