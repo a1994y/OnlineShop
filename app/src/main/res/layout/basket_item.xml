@@ -28,7 +28,7 @@
             android:id="@+id/nameProductBasket"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="@string/TextView"
             android:textColor="#000000"
             android:textSize="12sp"
             android:textStyle="bold" />
@@ -40,7 +40,7 @@
             android:textColor="#3F51B5"
             android:layout_marginTop="10dp"
             android:layout_weight="0.1"
-            android:text="TextView" />
+            android:text="@string/TextView" />
 
 
         <LinearLayout
@@ -63,7 +63,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:text="1"
+                android:text="@string/_1"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="bold" />

@@ -27,7 +27,7 @@
                 android:drawableLeft="@drawable/ic_info_outline_black_24dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
-                android:text="инфо"
+                android:text="@string/info"
                 android:background="@color/colorAccent"
                 android:gravity="center"
                 android:textColor="#ffffff"
@@ -40,7 +40,7 @@
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:text="Пицца"
+                android:text="@string/Pizza"
                 android:textColor="#ffffff" />
 
             <Button
@@ -50,7 +50,7 @@
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:text="Дессерт"
+                android:text="@string/Desert"
                 android:textColor="#ffffff" />
 
             <Button
@@ -60,7 +60,7 @@
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:text="Соусы"
+                android:text="@string/Souce"
                 android:textColor="#ffffff" />
 
             <Button
@@ -70,7 +70,7 @@
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:text="Напитки"
+                android:text="@string/Drink"
                 android:textColor="#ffffff" />
 
             <Button
@@ -80,7 +80,7 @@
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:text="Наборы"
+                android:text="@string/Sets"
                 android:textColor="#ffffff" />
 
             <Button
@@ -90,7 +90,7 @@
                 android:layout_marginTop="8dp"
                 android:background="@color/colorAccent"
                 android:gravity="center"
-                android:text="Роллы и суши"
+                android:text="@string/Roll"
                 android:textColor="#ffffff" />
         </LinearLayout>
 

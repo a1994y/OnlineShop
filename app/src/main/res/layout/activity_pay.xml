@@ -25,7 +25,7 @@
         android:layout_marginTop="-97dp"
         android:layout_marginBottom="-22dp"
         android:paddingTop="10dp"
-        android:text="Итого: 0 руб."
+        android:text="@string/price"
         android:textColor="#8BC34A" />
 
     <Button
@@ -39,7 +39,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="11dp"
         android:background="@color/colorAccent"
-        android:text="Оформить заказ"
+        android:text="@string/Checkout"
         android:textColor="@android:color/white" />
 
 

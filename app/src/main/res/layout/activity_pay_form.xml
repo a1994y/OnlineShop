@@ -45,7 +45,7 @@
                 android:id="@+id/edit_card_number"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:hint="Номер карты"
+                android:hint="@string/numberCard"
                 android:drawableRight="@drawable/ic_credit_card_black_24dp"
                 android:inputType="phone"
                 android:padding="16dp"

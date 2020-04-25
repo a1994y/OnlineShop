@@ -8,4 +8,35 @@
     <string name="checkout_card_cvc" translatable="false">CVC</string>
     <string name="checkout_card_holder" translatable="false">Владелец карты</string>
     <string name="checkout_payment" translatable="false">Оплатить</string>
+    <string name="Adress">Адресс: Пушкина 67 к2</string>
+    <string name="info_contact">Отдел маркетинга: feedback@horoshiki.ru</string>
+    <string name="numberPhone">Телефон: 8(3812) 29 - 20 - 20</string>
+    <string name="infoDelivery1">Мы принимаем заказы с 9:00 до 23:59</string>
+    <string name="infoDelivery2">Минимальная сумма заказа 500руб.</string>
+    <string name="infoDelivery3">Доставка в Омске - бесплатно</string>
+    <string name="price">Итого: 0 руб.</string>
+    <string name="Checkout">Оформить заказ</string>
+    <string name="numberCard">Номер карты</string>
+    <string name="EnterName">Введите название товара</string>
+    <string name="DescriptionEnter">Введите описание товара</string>
+    <string name="url">URL..................</string>
+    <string name="Download">Загрузить товар</string>
+    <string name="info">инфо</string>
+    <string name="Pizza">Пицца</string>
+    <string name="Desert">Дессерт</string>
+    <string name="Souce">Соусы</string>
+    <string name="Drink">Напитки</string>
+    <string name="Sets">Наборы</string>
+    <string name="Roll">Роллы и суши</string>
+    <string name="TextView">TextView</string>
+    <string name="_1">1</string>
+    <string name="Contacts">Контакты</string>
+    <string name="Promo">Акции</string>
+    <string name="Dostavka">Доставка</string>
+    <string name="Price">$1999</string>
+    <string name="text">Text</string>
+    <string name="text2">Text</string>
+    <string name="productText">productText</string>
+    <string name="Description">Description</string>
+    <string name="Basket">В корзину</string>
 </resources>

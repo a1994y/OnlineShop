@@ -23,14 +23,14 @@
         android:layout_width="wrap_content"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
-        android:text="Мы принимаем заказы с 9:00 до 23:59" />
+        android:text="@string/infoDelivery1" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Минимальная сумма заказа 500руб." />
+        android:text="@string/infoDelivery2" />
 
     <TextView
         android:id="@+id/textView3"
@@ -39,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingBottom="30dp"
-        android:text="Доставка в Омске - бесплатно" />
+        android:text="@string/infoDelivery3" />
 
 
 
